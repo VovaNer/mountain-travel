@@ -1,16 +1,18 @@
+html, body {
+    overflow-x: hidden;
+}
 body {
   margin: 0;
   padding: 0;
   font-family: 'Open Sans', sans-serif;
   color: #95a5ad;
-  overflow-x: hidden;
 }
 a, a:link, a:visited {
   text-decoration: none;
   color: inherit;
 }
 header {
-  background: url(../img/bg-header.png) center center no-repeat;
+  background: url(../img/bg-header.png) no-repeat;
   background-size: cover;
   height: 100vh;
 }
@@ -22,8 +24,17 @@ header {
   margin-right: 30px;
   text-transform: uppercase;
 }
-.nav-menu {
-  margin-left: 90px;
+.logo {
+  margin-right: 90px;
+}
+@media only screen and (max-width: 992px) {
+  .header-link {
+    margin: 10px 0;
+    color: #000;
+  }
+}
+.navbar-toggler-icon {
+  color: #000;
 }
 .header-link:after {
   content: '';
@@ -46,6 +57,7 @@ header {
   letter-spacing: .15em;
 }
 .header-button {
+  margin-left: auto;
   color: #36aeea;
   padding: 7px 45px;
   transition: all .4s ease-in-out;
@@ -57,6 +69,9 @@ header {
 }
 .main-screen {
   margin-top: 185px;
+}
+.main-screen-img {
+  width: 100%;
 }
 .main-button {
   color: #fff;
@@ -79,8 +94,9 @@ header {
 /* About Section */
 .about {
   background-color: #f6f4f4;
-  padding: 20px 0;
+  padding: 20px 0 230px;
   position: relative;
+
 }
 .about-cont {
   background: url(../img/map.png) no-repeat;
@@ -89,6 +105,7 @@ header {
 }
 .about-block {
   margin-top: 180px;
+  padding: 30px 30px;
 }
 .about-title {
   font-size: 20px;
@@ -98,33 +115,57 @@ header {
 }
 .about-text {
   margin: 30px 0;
-  width: 90%;
+  font-weight: 700;
 }
 .about-button {
   padding: 10px 25px;
-  margin-bottom: 230px;
+
 }
 .friends-block {
-  position: absolute;
-  width: 47%;
-  height: 32%;
-  top: -30px;
-  right: 8%;
-  z-index: 1;
+  margin-top: -40px;
+  position: relative;
+  height: 560px;
+  width: 800px;
 }
 .friends-img {
+  height: 100%;
   width: 100%;
 }
 .feet-block {
   position: absolute;
-  width: 18%;
-  height: 10%;
-  bottom: 50%;
-  right: 45%;
-  z-index: 2;
+  top: 49%;
+  left: -5%;
+  z-index: 1;
 }
 .feet-img {
   width: 100%;
+}
+@media only screen and (max-width: 770px) {
+  .about-cont {
+    background: none;
+  }
+  .about {
+    background: url('../img/media-bg.png');
+    background-size: cover;
+  }
+  .friends-block {
+    display: none;
+  }
+  .feet-block {
+    display: none;
+  }
+  .about-title {
+    color: #fff;
+  }
+  .about-text {
+    color: #fff;
+  }
+  .about-block {
+    background: url('../img/forest-bg.jpg') no-repeat;
+    background-size: cover;
+    /* background-color: rgba(255, 255, 255, 0.7); */
+    box-shadow: 0 0 10px 2px #4b4b4b;
+  }
 }
 /* Our Journal Section */
 .journal {
@@ -232,7 +273,6 @@ header {
   font-size: 14px;
   position: absolute;
   top: 60px;
-
 }
 .tree-data-text {
   margin: 0;
