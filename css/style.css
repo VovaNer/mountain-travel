@@ -22,9 +22,6 @@ header {
   margin-right: 30px;
   text-transform: uppercase;
 }
-.header-link:last-child {
-  margin-right: 0;
-}
 .nav-menu {
   margin-left: 90px;
 }
@@ -41,7 +38,7 @@ header {
 }
 .btn {
   background-color: inherit;
-  border: 3px solid #36aeea;
+  border: 1px solid #36aeea;
   border-radius: 5px;
   text-transform: uppercase;
   font-weight: 700;
@@ -65,17 +62,125 @@ header {
   color: #fff;
   padding: 10px 55px;
   background-color: #36aeea;
-  transition: all .3s ease-in-out;
+  transition: all .2s ease-in-out;
 }
 .main-button:hover {
   color: #fff;
   background-color: #2a96cc;
   border-color: #2a96cc;
-  box-shadow: 0 0 10px 1px #1c6d96;
-  transition: all .3s ease-in-out;
+  box-shadow: 0 0 10px 1px #36aeea;
+  transition: all .2s ease-in-out;
 }
 .main-text {
   margin: 20px 0 30px;
   color: #ccc;
   width: 90%;
+}
+/* About Section */
+.about {
+  background-color: #f6f4f4;
+  padding: 20px 0;
+  position: relative;
+}
+.about-cont {
+  background: url(../img/map.png) no-repeat;
+  background-position: 100px top;
+  background-size: 80% 80%;
+}
+.about-block {
+  margin-top: 180px;
+}
+.about-title {
+  font-size: 20px;
+  color: #000;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.about-text {
+  margin: 30px 0;
+  width: 90%;
+}
+.about-button {
+  padding: 10px 25px;
+  margin-bottom: 230px;
+}
+.friends-block {
+  position: absolute;
+  width: 47%;
+  height: 32%;
+  top: -30px;
+  right: 8%;
+  z-index: 1;
+}
+.friends-img {
+  width: 100%;
+}
+.feet-block {
+  position: absolute;
+  width: 18%;
+  height: 10%;
+  bottom: 50%;
+  right: 45%;
+  z-index: 2;
+}
+.feet-img {
+  width: 100%;
+}
+/* Our Journal Section */
+.journal {
+  padding-bottom: 90px;
+}
+.journal-header {
+  padding: 40px 0;
+}
+.journal-title {
+  margin: 10px 0 40px;
+  color: #000;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+.journal-body-block {
+  padding: 30px 0;
+  height: 380px;
+  display: table;
+}
+.journal-body-block-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+.journal-img-block img {
+  width: 100%;
+}
+.journal-body-block-title {
+  font-size: 12px;
+  color: #36aeea;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+  text-transform: uppercase;
+}
+.journal-body-block-subtitle {
+  font-size: 17px;
+  font-weight: 700;
+  width: 75%;
+  margin: 0 auto;
+  text-transform: uppercase;
+  color: #000;
+}
+.overwrite {
+  text-decoration: line-through;
+}
+.journal-body-block-text {
+  margin: 30px auto;
+  width: 68%;
+  font-size: 14px;
+}
+.journal-body-block-number {
+  color: #000;
+  font-style: italic;
+  font-size: 12px;
+  display: block;
+}
+.journal-grid {
+
+  box-shadow: 0 0 15px 4px #ebebeb;
 }
