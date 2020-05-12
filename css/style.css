@@ -181,6 +181,59 @@ header {
   display: block;
 }
 .journal-grid {
-
   box-shadow: 0 0 15px 4px #ebebeb;
+}
+/* Tree Section */
+.tree {
+  padding: 140px 0 240px;
+  background: url('../img/tree.png');
+}
+.tree-form {
+  position: relative;
+  margin-top: 30px;
+}
+.tree-title {
+  margin-bottom: 20px;
+}
+.tree-input {
+  border: none;
+  height: 50px;
+  padding: 0 10px;
+  font-size: 16px;
+  width: 50%;
+}
+.tree-second-input {
+  margin-left: -5px;
+  padding-left: 20px;
+}
+.vr {
+  display: inline-block;
+  border-left: 1px solid #ccc;
+  width: 1px;
+  height: 30px;
+  position: absolute;
+  top: 10px;
+}
+.tree-button {
+  display: inline;
+  margin-left: -15px;
+  margin-top: 30px;
+}
+@media only screen and (max-width: 770px)  {
+  .tree-button {
+    margin-left: 0;
+    margin-top: 100px;
+  }
+}
+.tree-data {
+  padding-left: 25px;
+  background: url('../img/Lock.png') left center no-repeat;
+  color: #36aeea;
+  font-size: 14px;
+  position: absolute;
+  top: 60px;
+
+}
+.tree-data-text {
+  margin: 0;
 }
