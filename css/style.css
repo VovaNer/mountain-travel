@@ -408,6 +408,9 @@ header {
   padding: 50px 0 165px;
   background: url('../img/form-bg.png') center bottom no-repeat;
 }
+.footer-row {
+  align-items: center;
+}
 .form-quote {
   font-size: 40px;
 }
@@ -427,11 +430,12 @@ header {
   background: url('../img/avatar2.png') left center no-repeat;
 }
 .form-contact {
-  margin-top: 135px;
+  margin-top: 120px;
+  padding-bottom: 60px;
 }
 .contact {
   padding: 20px 20px;
-  background-color: rgba(255, 255, 255, 0.15);
+  background-color: rgba(255, 255, 255, 0.34);
   border-radius: 5px;
 }
 .contact-title {
@@ -457,4 +461,44 @@ header {
   width: 100%;
   padding: 25px 0;
   margin-bottom: 40px;
+}
+/* Footer Section */
+footer {
+  background-color: #3e5e69;
+  padding: 20px 0;
+}
+footer p {
+  margin: 0;
+}
+.footer-phone {
+  font-weight: 700;
+}
+.footer-row {
+  justify-content: space-between;
+}
+.footer-social {
+  display: inline;
+  margin-right: px;
+  font-size: 20px;
+  text-align: center;
+}
+.footer-social-link {
+  padding: 7px 7px;
+  text-shadow: 2px 2px 5px #474747;
+  color: #fff;
+  transition: all .3s ease;
+}
+.footer-social-twiter {
+  background-color: #36aee3;
+}
+.footer-social-facebook {
+  background-color: #6788ce;
+  padding: 7px 11px;
+}
+.footer-social-vk {
+  background-color: #54769a;
+}
+.footer-social-link:hover {
+  color: #83b7c9;
+  box-shadow: 0 0 5px 1px #83b7c9;
 }
