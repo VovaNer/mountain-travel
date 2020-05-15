@@ -380,3 +380,11 @@ header {
   justify-content: space-around;
   align-items: center;
 }
+/* Gallery Section */
+.gallery {
+  padding-top: 50px;
+}
+.gallery-img {
+  width: 100%;
+  margin-bottom: 30px;
+}
