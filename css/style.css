@@ -483,11 +483,13 @@ footer p {
   text-align: center;
 }
 .footer-social-link {
+  margin: 20px 0;
   padding: 7px 7px;
   text-shadow: 2px 2px 5px #474747;
   color: #fff;
   transition: all .3s ease;
 }
+
 .footer-social-twiter {
   background-color: #36aee3;
 }
@@ -501,4 +503,7 @@ footer p {
 .footer-social-link:hover {
   color: #83b7c9;
   box-shadow: 0 0 5px 1px #83b7c9;
+}
+.footer-row {
+  text-align: center;
 }
