@@ -174,7 +174,7 @@ header {
 .journal-header {
   padding: 40px 0;
 }
-.journal-title {
+.section-title {
   margin: 10px 0 40px;
   color: #000;
   text-transform: uppercase;
@@ -276,4 +276,107 @@ header {
 }
 .tree-data-text {
   margin: 0;
+}
+/* Work Section */
+.work {
+  padding: 40px 0 100px;
+}
+.work-box {
+  margin-top: 70px;
+}
+.work-number {
+  color: #36aeea;
+  padding: 14px 20px;
+  border: 2px solid #36aeea;
+  border-radius: 100px;
+  font-weight: 700;
+}
+.work-box-hexagon {
+  position: relative;
+  margin: 60px auto 30px;
+  background: url('../img/ellipse.png') center center no-repeat;
+  width: 180px;
+  height: 180px;
+}
+.work-box-img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+.work-title {
+  font-size: 16px;
+  font-weight: 700;
+  color: #000;
+}
+.work-text {
+  line-height: 25px;
+  width: 90%;
+  margin: 0 auto;
+}
+/* Travel With Us Section */
+.travel {
+  padding: 40px 0 470px;
+  background: url('../img/worldmap.png') center no-repeat, url('../img/Travel-bg.png') no-repeat;
+  background-size: cover;
+
+}
+.travel-box {
+  color: #fff;
+  margin-top: 40px;
+  border-radius: 5px;
+}
+.travel-box-title {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 120px;
+  margin-left: 1%;
+}
+.travel-box-text {
+  font-weight: 700;
+  margin-bottom: 80px;
+  margin-left: 1%;
+}
+.travel-box-main-price {
+  font-size: 26px;
+  font-weight: 700;
+}
+.travel-box1 {
+  background: url('../img/carpathian.png') no-repeat;
+}
+.travel-box2 {
+  background: url('../img/alps.png') no-repeat;
+}
+.travel-box3 {
+  background: url('../img/pyrenees.png') no-repeat;
+}
+.travel-box4 {
+  background: url('../img/rocky.png') no-repeat;
+}
+.travel-box5 {
+  background: url('../img/Caucasia.png') no-repeat;
+}
+.travel-box {
+  background-size: cover;
+  background-origin: padding-box;
+  margin-right: 5px;
+  box-shadow: 0 0 5px 0.05px #262428;
+  transition: all .2s ease;
+}
+.travel-box:hover {
+  box-shadow: 0 0 20px 4px #466377;
+  cursor: pointer;
+  width:
+}
+.travel-cards {
+  justify-content: space-around;
+}
+.smooth-line {
+  width: 100%;
+  margin: 0 auto 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
